@@ -7,38 +7,24 @@
   ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
   ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
   ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-  ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+  ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
   ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
   <p align="center">
-    <strong>تجربة تسوق سلسة وآمنة للمنتجات العضوية الطازجة</strong>
-    <br />
-    <a href="#"><strong>Explore the Docs »</strong></a>
-    <br />
-    <br />
     <a href="#">View Demo</a>
-    ·
-    <a href="#">Report Bug</a>
-    ·
-    <a href="#">Request Feature</a>
   </p>
 </div>
 
----
-
 ## 📖 Overview
-**Ecobazar** هو تطبيق ويب متكامل للتجارة الإلكترونية يهدف إلى توفير واجهة بسيطة وسريعة للمستخدمين لشراء الخضروات والفواكه العضوية. المشروع مصمم بمعمارية **Modular** لسهولة الصيانة والتطوير المستقبلي.
-
----
+**Ecobazar** is a full-featured e-commerce web application designed to provide users with a simple and fast interface for purchasing organic fruits and vegetables. The project is built using a **Modular** architecture to ensure easy maintenance and future development.
 
 ## ✨ Key Features
-* 🔐 **Secure Authentication:** نظام تسجيل دخول وحماية للمستخدمين.
-* 🛒 **Smart Shopping Cart:** إدارة المنتجات في العربة مع تحديث فوري للأسعار ومزامنة مع الـ Local Storage.
-* 🔍 **Advanced Filtering:** نظام بحث وفلترة متطور حسب الفئات (Categories) والأسعار.
-* 📱 **Fully Responsive:** واجهة مستخدم متجاوبة تماماً مع جميع أحجام الشاشات.
-* 🚀 **Performance Optimized:** معالجة سريعة لطلبات الـ API لضمان أفضل تجربة مستخدم.
+* 🔐 **Secure Authentication:** User login system with full protection.  
+* 🛒 **Smart Shopping Cart:** Manage cart items with real-time price updates and synchronization with Local Storage.  
+* 🔍 **Filtering:** Advanced search and filtering system by categories and price.  
+* 📱 **Fully Responsive:** User interface fully responsive across all screen sizes.  
+* 🚀 **Performance Optimized:** Fast API request handling to ensure the best user experience.
 
----
 
 ## 🛠 Tech Stack
 
@@ -50,28 +36,19 @@
 
 ### Backend & Database
 - **Node.js & Express** (Restful API Design)
-- **MongoDB** (NoSQL Database) / **MySQL**
-- **JWT** (Security & Auth)
-
----
+- **MySQL**
 
 ## 🛡️ Challenges & Solutions
-| التحدي | الحل |
+| Challenge | Solution |
 | :--- | :--- |
-| **State Persistence** | استخدام `localStorage` مع React Hooks لمزامنة بيانات العربة حتى بعد تحديث الصفحة. |
-| **Responsiveness** | تطبيق نظام الـ Grid الخاص بـ Bootstrap مع Custom Media Queries لضمان مثالية العرض على الموبايل. |
-| **API Security** | تنفيذ Middleware للتحقق من التوكنات وتشفير البيانات الحساسة بين الـ Client والـ Server. |
+| **State Persistence** | Using `localStorage` with React Hooks to keep cart data synchronized even after page reloads. |
+| **Responsiveness** | Implementing Bootstrap's Grid system along with custom media queries to ensure perfect mobile display. |
+| **API Security** | Implementing middleware to verify tokens and encrypt sensitive data between the client and server. |
 
----
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 - Node.js installed
-- Database (MongoDB/MySQL) running
+- Database (MySQL) running
 
-### Installation
-1. Clone the repo:
-   ```bash
-   git clone [https://github.com/username/Ecobazar.git](https://github.com/username/Ecobazar.git)
-   
