@@ -38,6 +38,32 @@
 - **Node.js & Express** (Restful API Design)
 - **MySQL**
 
+## 📁 Project Structure
+
+```plaintext
+Ecobazar/
+│
+├── back-end/               # Node.js server files
+│   ├── node_modules/       # Installed Node.js packages
+│   ├── uploads/            # Uploaded files storage
+│   ├── Server.js           # Main server file
+│   ├── package.json        # Backend dependencies
+│   └── package-lock.json   # Backend dependency lock file
+│
+├── front-end/              # React client files
+│   ├── public/             # Static files (images, favicon, etc.)
+│   │   └── index.html
+│   ├── src/                # React source files
+│   │   └── (components, pages, layouts, assets...)
+│   ├── package.json        # Frontend dependencies
+│   ├── package-lock.json   # Frontend dependency lock file
+│   ├── vite.config.js      # Vite configuration
+│   ├── eslint.config.js    # ESLint configuration
+│   └── README.md           # Frontend README
+│
+├── .gitignore              # Git ignore rules
+└── README.md               # Main project README
+
 ## 🛡️ Challenges & Solutions
 | Challenge | Solution |
 | :--- | :--- |
