@@ -1,4 +1,4 @@
-# 🛒 Ecobazar - Fresh Organic Food E-commerce 🌿
+# 🌿 Ecobazar - Fresh Organic Food E-commerce 
 
 ![Thumbnail](https://github.com/user-attachments/assets/e83fc734-b1fe-459c-a4e3-f33e9f90ec9f)
 
