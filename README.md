@@ -1,6 +1,6 @@
 # 🌿 Ecobazar - Fresh Organic Food E-commerce 
 
-![Thumbnail](https://github.com/user-attachments/assets/e83fc734-b1fe-459c-a4e3-f33e9f90ec9f)
+<img width="1920" height="1080" alt="Thumbnail" src="https://github.com/user-attachments/assets/581a157e-7aa3-49b7-b91f-f409d46abf4e" />
 
 <div align="center">
 
@@ -10,20 +10,17 @@
   ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
   ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-  <p align="center">
-    <a href="#">View Demo</a>
-  </p>
 </div>
 
-## 📖 Overview
+##  Overview
 **Ecobazar** is a full-featured e-commerce web application designed to provide users with a simple and fast interface for purchasing organic fruits and vegetables. The project is built using a **Modular** architecture to ensure easy maintenance and future development.
 
-## ✨ Key Features
-* 🔐 **Secure Authentication:** User login system with full protection.  
-* 🛒 **Smart Shopping Cart:** Manage cart items with real-time price updates and synchronization with Local Storage.  
-* 🔍 **Filtering:** Advanced search and filtering system by categories and price.  
-* 📱 **Fully Responsive:** User interface fully responsive across all screen sizes.  
-* 🚀 **Performance Optimized:** Fast API request handling to ensure the best user experience.
+##  Key Features
+*  **Secure Authentication:** User login system with full protection.  
+*  **Smart Shopping Cart:** Manage cart items with real-time price updates and synchronization with Local Storage.  
+*  **Filtering:** Advanced search and filtering system by categories and price.  
+*  **Fully Responsive:** User interface fully responsive across all screen sizes.  
+*  **Performance Optimized:** Fast API request handling to ensure the best user experience.
 
 
 ## 🛠 Tech Stack
@@ -64,7 +61,7 @@ Ecobazar/
 ├── .gitignore              # Git ignore rules
 └── README.md               # Main project README
 ```
-## 🛡️ Challenges & Solutions
+##  Challenges & Solutions
 | Challenge | Solution |
 | :--- | :--- |
 | **State Persistence** | Using `localStorage` with React Hooks to keep cart data synchronized even after page reloads. |
@@ -72,7 +69,7 @@ Ecobazar/
 | **API Security** | Implementing middleware to verify tokens and encrypt sensitive data between the client and server. |
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js installed
